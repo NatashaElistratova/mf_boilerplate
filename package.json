@@ -1,0 +1,20 @@
+{
+  "name": "mf_boilerplate",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.8.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@module-federation/rsbuild-plugin": "^0.8.1",
+    "@rsbuild/core": "^1.1.8",
+    "@rsbuild/plugin-vue": "^1.0.5",
+    "typescript": "^5.7.2"
+  }
+}
